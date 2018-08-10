@@ -1,0 +1,89 @@
+<html>
+	<?
+		include ("./banner.h");
+		include ("./table.css");
+		include ("./login.css");
+	?>
+<body>
+	<br><br>
+	<!--공지사항, Q&A, 로그인 테이블-->
+	<table  width=65% cellpadding="0" cellspacing="0" align = center >
+		<tr>
+			<td valign="top" width = 33% id=td2>
+				<table id = td4 width = 100% height=372 cellspacing="4" cellpadding="5" bgcolor = '#5853EB'>
+					<tr><td id = td2 height=50><img src="image/notice.png"></td>
+						<td align=right ><img src="image/add1.png"></td></tr>
+					<tr><td id = td2 colspan = 2>1</td></tr>
+					<tr><td id = td2 colspan = 2>2</td></tr>
+					<tr><td id = td2 colspan = 2>3</td></tr>
+					<tr><td id = td2 colspan = 2>4</td></tr>
+					<tr><td id = td2 colspan = 2>5</td></tr>
+				</table>
+			</td>
+			
+			<td valign="top" width = 33%  id=td2>
+				<table id = td4 width = 100% height=372 cellspacing="4" cellpadding="5" bgcolor = '#487BE1'>
+					<tr><td id = td2 height=50><img src="image/qna.png"></td>
+						<td align=right><img src="image/add1.png"></td></tr>
+					<tr><td id = td2 colspan = 2>1</td></tr>
+					<tr><td id = td2 colspan = 2>2</td></tr>
+					<tr><td id = td2 colspan = 2>3</td></tr>
+					<tr><td id = td2 colspan = 2>4</td></tr>
+					<tr><td id = td2 colspan = 2>5</td></tr>
+				</table>
+			</td>
+			
+			<td valign="top" width = 33% id=td2>
+				<table id = td4 width = 100% cellspacing="4" cellpadding="5" bgcolor = '#3DB7CC'>
+					<tr><td id = td2 height=50><img src="image/login.png"></td></tr>
+					<tr><td id = td2 height = 260>
+					<!-- 로그인 테이블 -->
+					<div class="form">
+						<div class="form-panel one">
+							<div class="form-content">
+								<form>
+									<div class="form-group">
+										<label for="username">Username</label>
+											<input type="text" id="username" name="username" required="required"/>
+									</div>
+									<div class="form-group">
+										<label for="password">Password</label>
+										<input type="password" id="password" name="password" required="required"/>
+									</div>
+									<div class="form-group">
+										<label class="form-remember">
+										<input type="checkbox"/>Remember Me</label><a href="#" class="form-recovery">Forgot Password?</a>
+									</div>
+									<div class="form-group">
+										<button type="submit">Log In</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					</td></tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	
+	<br><br>
+	
+	<!--운영프로그램 및 더보기-->
+	<table width=65% align=center bgcolor='#EBF7FF' cellpadding=12>
+		<tr>
+		<td width=90% align=left ><img src="image/program.png"></td>
+		<td align=right><img src="image/add1.png"></td>
+		</tr>
+	</table>
+	<br>
+
+	<!--수업 강의 목록이 뜨는 테이블-->
+
+	 
+<body>
+
+<?
+	include ("./footer.h");
+?>
+</html>
